@@ -72,22 +72,23 @@
 			<version>5.5.13.3</version>
 		</dependency>
 		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-databind</artifactId>
-			<version>2.15.2</version> <!-- Use the latest version -->
-		</dependency>
-
-		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<version>1.18.24</version>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.aspose</groupId>
+			<artifactId>aspose-words</artifactId>
+			<version>21.11</version>
+			<type>pom</type>
+		</dependency>
 	</dependencies>
 	<repositories>
 		<repository>
-			<id>jcenter</id>
-			<url>https://jcenter.bintray.com/</url>
+			<id>AsposeJavaAPI</id>
+			<name>Aspose Java API</name>
+			<url>https://repository.aspose.com/repo/</url>
 		</repository>
 	</repositories>
 	<build>
